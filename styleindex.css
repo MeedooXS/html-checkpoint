@@ -1,0 +1,146 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  text-decoration: none;
+  color: greenyellow;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border: 2px solid white;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 350;
+  font-weight: 500;
+  padding: 8px;
+}
+
+.navigation a:hover {
+  color: red;
+}
+
+section {
+  padding: 25px 50px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: right;
+  background-size: contain;
+  background-color: grey;
+  background-attachment: fixed;
+}
+
+.main h1 {
+  color: red;
+  font-size: 5em;
+  font-weight: 500;
+  justify-content: center;
+  padding: 100px;
+  padding left: 100px;
+}
+
+.main h3 {
+  color: #000;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.title {
+  background-color: black;
+  border-radius: 50px;
+  display: flex;
+  color: greenyellow;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight:500;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.content {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.card {
+  background-color: wheat;
+  width: 25em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.5s ease;
+}
+
+.info{
+  text-align: center;
+}
+
+.h1{
+  text-align: center;
+}
+.cardsi{
+  background-color: wheat;
+  width: 25em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.5s ease;
+}
+
+.forms{
+  justify-items: left;
+  margin-bottom: 2px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  justify-items: center;
+}
+
+.footer {
+  background-color: black;
+  color: greenyellow;
+  padding: 1em;
+  justify-content: space-between;
+  display: flex;
+}
